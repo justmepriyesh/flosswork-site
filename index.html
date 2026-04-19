@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Flosswork Dental Clinic — Premium clear aligner treatment with advanced digital scanning. Specialist-led care trusted by 5000+ patients. Plans from ₹50,000." />
+  <title>Flosswork Dental Clinic | Clear Aligners & Smile Design</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo" aria-label="Flosswork Dental Clinic Home">
+        <svg class="logo-icon" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M14 3C10 3 7 6 7 9.5C7 12 8.5 14 10 15.5C11 16.5 11.5 18 11.5 20C11.5 22.5 12.5 25 14 25C15.5 25 16.5 22.5 16.5 20C16.5 18 17 16.5 18 15.5C19.5 14 21 12 21 9.5C21 6 18 3 14 3Z" fill="currentColor" opacity="0.15"/>
+          <path d="M14 3C10 3 7 6 7 9.5C7 12 8.5 14 10 15.5C11 16.5 11.5 18 11.5 20C11.5 22.5 12.5 25 14 25C15.5 25 16.5 22.5 16.5 20C16.5 18 17 16.5 18 15.5C19.5 14 21 12 21 9.5C21 6 18 3 14 3Z" stroke="currentColor" stroke-width="1.5" fill="none"/>
+        </svg>
+        <span class="logo-text">Flosswork</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#aligners" class="nav-link">Aligners</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <a href="tel:+919999999999" class="nav-cta">Book Consultation</a>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <nav class="mobile-nav">
+      <a href="#home" class="mobile-nav-link" onclick="closeMobileMenu()">Home</a>
+      <a href="#aligners" class="mobile-nav-link" onclick="closeMobileMenu()">Aligners</a>
+      <a href="#about" class="mobile-nav-link" onclick="closeMobileMenu()">About</a>
+      <a href="#contact" class="mobile-nav-link" onclick="closeMobileMenu()">Contact</a>
+      <a href="tel:+919999999999" class="mobile-nav-cta" onclick="closeMobileMenu()">Book Consultation</a>
+    </nav>
+  </div>
+
+  <main>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="home">
+      <div class="hero-inner">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            Accepting new patients
+          </div>
+          <h1 class="hero-headline">
+            Straighten your teeth.<br />
+            <em>Without anyone noticing.</em>
+          </h1>
+          <p class="hero-sub">
+            Precision-planned clear aligners using advanced digital scanning — designed around your life, not around brackets and wires.
+          </p>
+          <p class="hero-price">Plans starting from <strong>₹50,000</strong> &nbsp;·&nbsp; Easy EMI available</p>
+          <div class="hero-actions">
+            <a href="#quiz" class="btn btn-primary">Check if aligners are right for you</a>
+            <a href="tel:+919999999999" class="btn btn-ghost">Book a Consultation</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=700&q=80"
+              alt="Woman confidently holding a clear dental aligner"
+              class="hero-img"
+              loading="eager"
+            />
+            <div class="hero-pill">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="8" fill="#22c55e" opacity="0.2"/><circle cx="8" cy="8" r="4" fill="#22c55e"/></svg>
+              5,000+ smiles transformed
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Trust Bar -->
+      <div class="trust-bar">
+        <div class="trust-bar-inner">
+          <div class="trust-item">
+            <span class="trust-number">5,000+</span>
+            <span class="trust-label">Patients Treated</span>
+          </div>
+          <div class="trust-divider"></div>
+          <div class="trust-item">
+            <span class="trust-number">Digital</span>
+            <span class="trust-label">3D Scanning</span>
+          </div>
+          <div class="trust-divider"></div>
+          <div class="trust-item">
+            <span class="trust-number">Specialist</span>
+            <span class="trust-label">Led Care</span>
+          </div>
+          <div class="trust-divider"></div>
+          <div class="trust-item">
+            <span class="trust-number">EMI</span>
+            <span class="trust-label">Options Available</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== BENEFITS / NOT CONFIDENT ========== -->
+    <section class="benefits" id="aligners">
+      <div class="section-inner">
+        <div class="section-label">Why Clear Aligners</div>
+        <h2 class="section-headline">Not confident about your smile?</h2>
+        <p class="section-sub">Crowded, spaced, or misaligned teeth can be corrected comfortably with clear aligners — no metal, no fuss.</p>
+
+        <div class="benefits-grid">
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M16 4C9.373 4 4 9.373 4 16s5.373 12 12 12 12-5.373 12-12S22.627 4 16 4z" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.3"/><path d="M16 10a2 2 0 100 4 2 2 0 000-4zM13 20c0-1.657 1.343-3 3-3s3 1.343 3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/></svg>
+            </div>
+            <h3 class="benefit-title">Invisible</h3>
+            <p class="benefit-desc">Hardly noticeable in daily life. Wear them at work, social events, anywhere — with total confidence.</p>
+          </div>
+
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M8 16c0-4.418 3.582-8 8-8s8 3.582 8 8-3.582 8-8 8-8-3.582-8-8z" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.3"/><path d="M12 16.5l2.5 2.5 5.5-5.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3 class="benefit-title">Comfortable</h3>
+            <p class="benefit-desc">No wires, no irritation. Smooth, custom-fit aligners designed to move your teeth gently and precisely.</p>
+          </div>
+
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><rect x="8" y="10" width="16" height="12" rx="2" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.3"/><path d="M12 10V8a4 4 0 018 0v2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/></svg>
+            </div>
+            <h3 class="benefit-title">Removable</h3>
+            <p class="benefit-desc">Eat what you love, clean with ease. Simply remove your aligners at meals and put them back after.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== BEFORE / AFTER ========== -->
+    <section class="results" id="results">
+      <div class="section-inner">
+        <div class="section-label">Patient Outcomes</div>
+        <h2 class="section-headline">Real results you can see.<br /><em>Confidence you can feel.</em></h2>
+        <p class="section-sub">Every smile is unique. See what our patients have achieved with precision aligner treatment at Flosswork.</p>
+
+        <div class="before-after-grid">
+
+          <div class="ba-card">
+            <div class="ba-slider" id="slider1">
+              <div class="ba-before">
+                <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=600&q=80" alt="Before aligner treatment — crowded teeth" class="ba-img" />
+                <span class="ba-tag ba-tag-before">Before</span>
+              </div>
+              <div class="ba-after" style="width:50%">
+                <img src="https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=600&q=80" alt="After aligner treatment — aligned smile" class="ba-img" />
+                <span class="ba-tag ba-tag-after">After</span>
+              </div>
+              <div class="ba-handle" role="slider" aria-label="Before and after slider" aria-valuenow="50">
+                <div class="ba-handle-circle">
+                  <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M6 9l-3 3 3 3M12 9l3 3-3 3M3 12h12" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </div>
+              </div>
+            </div>
+            <p class="ba-caption">Crowding correction · 14 months</p>
+          </div>
+
+          <div class="ba-card">
+            <div class="ba-slider" id="slider2">
+              <div class="ba-before">
+                <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=600&q=80" alt="Before aligner treatment — spacing issue" class="ba-img" />
+                <span class="ba-tag ba-tag-before">Before</span>
+              </div>
+              <div class="ba-after" style="width:50%">
+                <img src="https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=600&q=80" alt="After aligner treatment — closed spacing" class="ba-img" />
+                <span class="ba-tag ba-tag-after">After</span>
+              </div>
+              <div class="ba-handle" role="slider" aria-label="Before and after slider" aria-valuenow="50">
+                <div class="ba-handle-circle">
+                  <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M6 9l-3 3 3 3M12 9l3 3-3 3M3 12h12" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </div>
+              </div>
+            </div>
+            <p class="ba-caption">Spacing & alignment · 10 months</p>
+          </div>
+
+        </div>
+
+        <p class="results-note">Results vary by case. A personalised treatment plan is created after your digital scan consultation.</p>
+      </div>
+    </section>
+
+    <!-- ========== HOW IT WORKS ========== -->
+    <section class="how-it-works" id="process">
+      <div class="section-inner">
+        <div class="section-label">The Process</div>
+        <h2 class="section-headline">A simple 3-step journey<br />to your new smile</h2>
+
+        <div class="steps-track">
+          <div class="step">
+            <div class="step-number">01</div>
+            <div class="step-content">
+              <h3 class="step-title">Scan your teeth digitally</h3>
+              <p class="step-desc">We use a state-of-the-art intraoral scanner — no messy impressions. Your teeth are mapped in precise 3D within minutes.</p>
+            </div>
+          </div>
+          <div class="step-connector" aria-hidden="true"></div>
+          <div class="step">
+            <div class="step-number">02</div>
+            <div class="step-content">
+              <h3 class="step-title">Get a precise smile plan</h3>
+              <p class="step-desc">Your specialist designs a custom digital treatment plan. You'll see your projected result before a single aligner is made.</p>
+            </div>
+          </div>
+          <div class="step-connector" aria-hidden="true"></div>
+          <div class="step">
+            <div class="step-number">03</div>
+            <div class="step-content">
+              <h3 class="step-title">Start your aligner journey</h3>
+              <p class="step-desc">Receive your custom aligners and wear them through your transformation — with regular specialist check-ins at every stage.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="how-cta">
+          <a href="#quiz" class="btn btn-primary">Check if you're a candidate</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== MORE THAN JUST ALIGNERS / SERVICES ========== -->
+    <section class="services" id="services">
+      <div class="section-inner">
+        <div class="section-label">Full-Spectrum Care</div>
+        <h2 class="section-headline">More than just aligners</h2>
+        <p class="section-sub">Complete dental care under one roof — from routine check-ups to smile design.</p>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-img-wrap">
+              <img src="https://images.unsplash.com/photo-1629909614318-c5b6b7cf5e5b?w=500&q=80" alt="Teeth whitening treatment at Flosswork" loading="lazy" />
+            </div>
+            <div class="service-info">
+              <h3>Teeth Whitening</h3>
+              <p>Professional-grade whitening for a noticeably brighter smile in a single session.</p>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div class="service-img-wrap">
+              <img src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=500&q=80" alt="Smile design and veneers at Flosswork" loading="lazy" />
+            </div>
+            <div class="service-info">
+              <h3>Smile Design</h3>
+              <p>Digitally planned smile makeovers — veneers, bonding, and more, crafted for your face.</p>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div class="service-img-wrap">
+              <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=500&q=80" alt="Dental implants and restorations" loading="lazy" />
+            </div>
+            <div class="service-info">
+              <h3>Implants</h3>
+              <p>Long-lasting tooth replacements placed with surgical precision and aesthetic care.</p>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div class="service-img-wrap">
+              <img src="https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=500&q=80" alt="Preventive dental care and check-ups" loading="lazy" />
+            </div>
+            <div class="service-info">
+              <h3>Preventive Care</h3>
+              <p>Regular scaling, cleaning, and oral health assessments to keep your teeth in peak condition.</p>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div class="service-img-wrap">
+              <img src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=500&q=80" alt="Root canal treatment" loading="lazy" />
+            </div>
+            <div class="service-info">
+              <h3>Root Canal</h3>
+              <p>Pain-free, single-session root canal treatments using rotary endodontic technology.</p>
+            </div>
+          </div>
+
+          <div class="service-card service-card-cta">
+            <div class="service-cta-inner">
+              <span>Explore all treatments</span>
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 10h12M10 4l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TECHNOLOGY ========== -->
+    <section class="technology" id="technology">
+      <div class="section-inner">
+        <div class="section-label">Our Technology</div>
+        <h2 class="section-headline">Advanced technology for more<br />accurate, predictable results</h2>
+        <p class="section-sub">Every treatment decision at Flosswork is backed by precise digital data — not guesswork.</p>
+
+        <div class="tech-grid">
+          <div class="tech-card">
+            <div class="tech-icon">
+              <svg width="36" height="36" viewBox="0 0 36 36" fill="none"><rect x="4" y="8" width="28" height="20" rx="3" stroke="currentColor" stroke-width="1.5" fill="none"/><path d="M12 18l4 4 8-8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>3D Intraoral Scanner</h3>
+            <p>Captures your full dental arch in under 3 minutes. No impressions, no discomfort — just precise digital models.</p>
+          </div>
+
+          <div class="tech-card">
+            <div class="tech-icon">
+              <svg width="36" height="36" viewBox="0 0 36 36" fill="none"><circle cx="18" cy="18" r="10" stroke="currentColor" stroke-width="1.5" fill="none"/><path d="M18 12v6l4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Digital Smile Preview</h3>
+            <p>See your projected end result before treatment begins — so you know exactly what you're signing up for.</p>
+          </div>
+
+          <div class="tech-card">
+            <div class="tech-icon">
+              <svg width="36" height="36" viewBox="0 0 36 36" fill="none"><path d="M18 4L4 12v12l14 8 14-8V12L18 4z" stroke="currentColor" stroke-width="1.5" fill="none"/><path d="M18 4v20M4 12l14 8 14-8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.5"/></svg>
+            </div>
+            <h3>Precision-Fit Aligners</h3>
+            <p>Each aligner is manufactured to sub-millimetre accuracy, delivering consistent and predictable tooth movement.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== DOCTOR SECTION ========== -->
+    <section class="doctors" id="about">
+      <div class="section-inner">
+        <div class="section-label">Meet Your Specialists</div>
+        <h2 class="section-headline">Precision-driven care.<br /><em>Personally delivered.</em></h2>
+        <p class="section-sub">Every treatment is planned with accuracy and attention to detail, using advanced digital tools to ensure predictable results.</p>
+
+        <div class="doctors-grid">
+          <div class="doctor-card">
+            <div class="doctor-img-wrap">
+              <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&q=80" alt="Lead dental specialist at Flosswork" loading="lazy" />
+            </div>
+            <div class="doctor-info">
+              <h3 class="doctor-name">Dr. [Your Name]</h3>
+              <span class="doctor-role">MDS — Orthodontics</span>
+              <p class="doctor-bio">X years of experience in orthodontics and aligner therapy. Trained at [Institution]. Specialist in digital smile planning.</p>
+            </div>
+          </div>
+
+          <div class="doctor-card">
+            <div class="doctor-img-wrap">
+              <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&q=80" alt="Restorative dental specialist at Flosswork" loading="lazy" />
+            </div>
+            <div class="doctor-info">
+              <h3 class="doctor-name">Dr. [Your Name]</h3>
+              <span class="doctor-role">BDS — Restorative & Aesthetic</span>
+              <p class="doctor-bio">Focused on smile design and aesthetic dentistry. Expert in aligner-supported smile transformations.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PRICING ========== -->
+    <section class="pricing" id="pricing">
+      <div class="section-inner">
+        <div class="section-label">Investment in Your Smile</div>
+        <h2 class="section-headline">Transparent pricing.<br />No surprises.</h2>
+        <p class="section-sub">Straightforward plans that fit your case and your budget — with zero hidden charges.</p>
+
+        <div class="pricing-grid">
+          <div class="pricing-card">
+            <div class="pricing-tier">Essentials</div>
+            <div class="pricing-amount">₹50,000</div>
+            <div class="pricing-freq">starting from</div>
+            <ul class="pricing-features">
+              <li>Digital scan + consultation</li>
+              <li>Custom aligner sets</li>
+              <li>Specialist monitoring</li>
+              <li>1 set of refiners included</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline">Get started</a>
+          </div>
+
+          <div class="pricing-card pricing-card-featured">
+            <div class="pricing-badge">Most Popular</div>
+            <div class="pricing-tier">Premium</div>
+            <div class="pricing-amount">₹90,000</div>
+            <div class="pricing-freq">starting from</div>
+            <ul class="pricing-features">
+              <li>Everything in Essentials</li>
+              <li>Comprehensive treatment plan</li>
+              <li>Unlimited refiners</li>
+              <li>Priority appointment access</li>
+              <li>Retainers included</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary">Get started</a>
+          </div>
+        </div>
+
+        <div class="emi-banner">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="5" width="16" height="12" rx="2" stroke="currentColor" stroke-width="1.5" fill="none"/><path d="M2 9h16" stroke="currentColor" stroke-width="1.5"/><circle cx="6" cy="13" r="1" fill="currentColor"/></svg>
+          Easy EMI options available &nbsp;·&nbsp; No-cost EMI on select cards &nbsp;·&nbsp; Speak to us for details
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CTA QUIZ SECTION ========== -->
+    <section class="cta-quiz" id="quiz">
+      <div class="section-inner">
+        <div class="quiz-card">
+          <div class="quiz-content">
+            <div class="section-label light">Quick Check</div>
+            <h2 class="quiz-headline">Find out if aligners<br />will work for you</h2>
+            <p class="quiz-sub">Answer 3 quick questions and we'll let you know if you're a good candidate — no commitment required.</p>
+            <a href="https://wa.me/919999999999?text=Hi%2C%20I'd%20like%20to%20know%20if%20aligners%20are%20right%20for%20me" class="btn btn-white" target="_blank" rel="noopener noreferrer">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Chat on WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FINAL CTA / CONTACT ========== -->
+    <section class="contact-cta" id="contact">
+      <div class="section-inner">
+        <div class="section-label">Get in Touch</div>
+        <h2 class="section-headline">Start your smile<br />transformation today</h2>
+        <p class="section-sub">Visit us, call us, or drop a message on WhatsApp. We're here to answer every question.</p>
+
+        <div class="contact-grid">
+          <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" class="contact-card" aria-label="Get directions to Flosswork">
+            <div class="contact-icon">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M14 2C9.582 2 6 5.582 6 10c0 6.627 8 16 8 16s8-9.373 8-16c0-4.418-3.582-8-8-8z" stroke="currentColor" stroke-width="1.5" fill="none"/><circle cx="14" cy="10" r="3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg>
+            </div>
+            <h3>Find Us</h3>
+            <p>[Your clinic address, City]</p>
+            <span class="contact-link">Open in Maps →</span>
+          </a>
+
+          <a href="https://wa.me/919999999999" target="_blank" rel="noopener noreferrer" class="contact-card" aria-label="Chat on WhatsApp">
+            <div class="contact-icon whatsapp-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </div>
+            <h3>WhatsApp</h3>
+            <p>Chat with our team instantly</p>
+            <span class="contact-link">Start a chat →</span>
+          </a>
+
+          <a href="tel:+919999999999" class="contact-card" aria-label="Call Flosswork Dental Clinic">
+            <div class="contact-icon">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M5 5h6l2 5-3 1.5a14 14 0 007.5 7.5L19 16l5 2v6a2 2 0 01-2 2C9.954 26 2 18.046 2 7a2 2 0 012-2z" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>Call Us</h3>
+            <p>+91 99999 99999</p>
+            <span class="contact-link">Call now →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="nav-logo footer-logo">
+          <svg class="logo-icon" width="24" height="24" viewBox="0 0 28 28" fill="none"><path d="M14 3C10 3 7 6 7 9.5C7 12 8.5 14 10 15.5C11 16.5 11.5 18 11.5 20C11.5 22.5 12.5 25 14 25C15.5 25 16.5 22.5 16.5 20C16.5 18 17 16.5 18 15.5C19.5 14 21 12 21 9.5C21 6 18 3 14 3Z" stroke="currentColor" stroke-width="1.5" fill="none"/></svg>
+          <span class="logo-text">Flosswork</span>
+        </a>
+        <p class="footer-tagline">Premium dental care in [City].<br />Clear aligners. Smile design. Modern dentistry.</p>
+      </div>
+
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Treatments</h4>
+          <a href="#aligners">Clear Aligners</a>
+          <a href="#services">Teeth Whitening</a>
+          <a href="#services">Smile Design</a>
+          <a href="#services">Implants</a>
+        </div>
+        <div class="footer-col">
+          <h4>Clinic</h4>
+          <a href="#about">Meet the Doctors</a>
+          <a href="#technology">Our Technology</a>
+          <a href="#pricing">Pricing & EMI</a>
+          <a href="#contact">Contact & Location</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Flosswork Dental Clinic. All rights reserved.</p>
+      <p class="footer-legal">Results may vary. Consult your specialist for a personalised assessment.</p>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/919999999999?text=Hi%2C%20I'm%20interested%20in%20clear%20aligners%20at%20Flosswork"
+     class="whatsapp-fab"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="Chat with us on WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
