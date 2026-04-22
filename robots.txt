@@ -1,0 +1,8 @@
+# Flosswork Dental Clinic — robots.txt
+User-agent: *
+Allow: /
+
+Disallow: /images/
+Allow: /images/
+
+Sitemap: https://www.flossworkdental.com/sitemap.xml
